@@ -4,4 +4,5 @@ use of math.sqrt().
 
 
 Created by Cameron Smith
-\nDate: 2/26/2022
+
+Date: 2/26/2022
