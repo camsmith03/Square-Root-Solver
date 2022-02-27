@@ -47,7 +47,10 @@ public class SquareRootSolver {
       squareRoot += iterate;
     }// end while
     
-    System.out.println("The square root is - " + squareRoot);
+    if ((squareRoot - iterate) % 1 == 0.0) {
+      squareRoot = squareRoot - iterate;
+    }
+    System.out.println("The square root is: " + squareRoot);
   }// end method
   
   /**
